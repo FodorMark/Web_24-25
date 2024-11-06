@@ -1,0 +1,70 @@
+body{
+	background-color: lightblue;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	font-size:32px;
+	font-family: cursive;
+}
+
+#div{
+	/* border: 2px dotted cyan; */
+	border-width:2px; 
+	border-style:dotted;
+	broder-bottom-color:red;
+	broder-top-style:solid;
+	border-bottom-color:blue;
+	
+	padding: 10px
+	/* padding: 5px 10px; */
+	/* padding: 10px 15px 5px; */
+	/* padding: 10px 9px 8px 7px; */
+	margin: 10px
+	box-shadow: inset -5px -5px -8px blue;	
+}
+
+#doboz{	
+	width: 200px;
+	height: 100px;
+	border: 1px solid black;
+	box-shadow: 8px 8px 8px black;
+	margin: 0px 0px 0px 10px;	
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	vertical-align:middle;
+}
+
+img{
+	width:200px;
+	float:right;
+}
+
+.alma{
+	color:red;
+	/* font-weight: bold; */
+}
+
+.körte{
+	color:green;
+	/* font-weight: bold; */
+}
+
+.alma, .körte{
+	font-weight:bold;
+}
+
+diiv .körte{
+	font-size:20px;
+}
+div>.körte{
+	font-family:courier;
+	display: inline;
+}
+
+.belso{
+	display:inherit;
+}

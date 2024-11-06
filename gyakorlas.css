@@ -1,0 +1,99 @@
+body{
+	background-color: lightblue;
+	margin: 0px;
+	
+}
+
+/* h1{ */
+	/* color: white; */
+	/* font-family:cursive; */
+	/* text-align: center; */
+/* } */
+
+.header{
+	/* background-image: url("kepek/hatter2.JPG"); */
+	height: 400px;
+	/* background-size: contain; */
+	/* background-size: cover; */
+	background-size: contain;
+	background-attachment: fixed;
+	
+}
+
+.header{
+	color: white;
+	text-align:center;
+	font-size:40px;
+	color: beige;
+	text-shadow: 3px 3px 5px black;
+	letter-spacing: 5px;
+	padding-top: 360px;
+	
+	/* color: rgb(255,0,255); */
+	/* color:beige; */
+	/* color: rgba(255,0,0,0.5); */
+	/* rgb(16,255,11)
+		#10ff0b*/
+	}
+
+.first{
+	float: left;
+	width: 50%;	
+	background-color: lightgray; 
+	height:100%;
+	text-align:center;
+}
+	
+.sec{
+	width: 50%;
+	float: right;
+	background-color: white;
+	height:100%;
+}
+
+.masodik{
+	height:800px;
+}
+
+.first img{
+	/* width: 30%; */
+	height; 70%;
+	position: relative;
+	top: 15%;
+
+}
+
+.szovegkepb{
+	width:80%;
+	height: 80%;
+	margin: auto;
+	position:relative;
+	top:10%;
+	padding: 10px;
+	overflow: scroll;
+	
+}
+
+.szovegkepb h2{
+	text-align: center;
+}
+
+h2{
+	/* margin-top */
+}
+
+.hatter1{
+	background-image: url("kepek/hatter2.JPG");
+}
+
+.hatter2{
+	background-image: url("kepek/B.PNG")
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
